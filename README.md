@@ -10,4 +10,5 @@ The SCNView is the view responsible to render the scene. You load a scene from t
 ### Creating animations
 When I tap an object I create a SCNTransaction. A transaction takes some time (animationDuration) and interpolates some property to another value during this time. At least that's how I understood it.
 
+![alt text](https://github.com/dongeronimo/ios-scenekit-hello-world/raw/master/trim3F493321-4602-4F7E-A416-7F61.gif "Final Result")
 
