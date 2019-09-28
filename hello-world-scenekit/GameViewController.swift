@@ -36,6 +36,7 @@ class GameViewController: UIViewController {
         let hitResults = scnView.hitTest(p, options: [:])
         if (hitResults.count > 0 ){
             let result = hitResults[0]
+            //result.node.name
             let material = result.node.geometry!.firstMaterial!//Pega o material
             SCNTransaction.begin()
             SCNTransaction.animationDuration = 0.5
